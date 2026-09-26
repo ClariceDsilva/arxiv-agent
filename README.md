@@ -13,7 +13,7 @@ A stateful, grounded retrieval-augmented (RAG) agent that fetches arXiv papers, 
 The agent is explicitly structured as a state graph with identifiable nodes and edges. This means:
 
 - **State:** All data flows through a single `AgentState` dataclass (see `src/state.py`). State is immutable per node and logged at every stage, making debugging transparent.
-- **Nodes:** 6 stages, each a pure function `(AgentState) -> AgentState`. No hidden side effects.
+- **Nodes:** 7 stages, each a pure function `(AgentState) -> AgentState`. No hidden side effects.
 - **Edges:** Conditional routing functions that decide the next node based on state and intent.
 
 ```
@@ -673,3 +673,5 @@ A 4-minute video walkthrough of the architecture and design decisions is include
 
 **Last Updated:** September 2026  
 **Estimated Development Time:** 2.5 days
+
+
