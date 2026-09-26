@@ -290,7 +290,7 @@ The 384-dim MiniLM-L6-v2 is trained on general academic and web text; it works w
 ### 1. Clone / Download
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/arxiv-agent.git
+git clone https://github.com/ClariceDsilva/arxiv-agent.git
 cd arxiv-agent
 ```
 
